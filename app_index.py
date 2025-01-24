@@ -9,7 +9,8 @@ def create_connection():
         host='localhost',
         user='root',  # replace with your MySQL username
         password='root',  # replace with your MySQL password
-        database='zomato'
+        database='zomato',
+        auth_plugin='mysql_native_password'
     )
 
 
